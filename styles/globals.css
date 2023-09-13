@@ -1,5 +1,6 @@
 :root {
   --bg-main: #F9F7F4;
+  --hero-top-margin: 44px;
 }
 
 * {
@@ -16,14 +17,12 @@ a {
 
 body {
   background: var(--bg-main);
+  color: #333;
 }
 
 
-.photo {
-  width: 100vw;
-  max-width: 558px;
-  height: 100vh;
-  /* This keeps photo centered as the screen width increases */
-  display: block;
-  margin: 0 auto;
+.placeholder {
+  font-size: 36;
+  padding: 20px;
+  background-color: gray;
 }

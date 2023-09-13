@@ -1,7 +1,44 @@
-.introSpan {
-    color: red;
+.hero {
+    width: 100vw;
+    max-width: 558px;
+    height: calc(100vh - var(--hero-top-margin));
+    /* This keeps photo centered as the screen width increases */
+    display: block;
+    margin: var(--hero-top-margin) auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+    margin: 52px 24px;
+}
+
+.hello {
+    /* Headline/Headline (H6) - Small */
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+.h4 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* Headline/Headline (H4) - Large */
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    /* 125% */
+    -webkit-text-stroke: 1px black;
 }
 
 .name {
-    color: blue;
+    color: #8D5F4C;
 }
